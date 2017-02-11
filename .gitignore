@@ -137,3 +137,7 @@ ENV/
 
 
 .idea/misc.xml
+
+CarND-Advanced-Lane-Lines/
+
+.idea/modules.xml
