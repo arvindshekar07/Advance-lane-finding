@@ -133,3 +133,15 @@ After this using these point i display the region covered by lanes.
 You can  check out the video that undergoes this pipeline to detect the lane lines.
 Here's a [link to my video result](./project_video_result.mp4)
 
+###Considerations , Issues ,Problem and Future Enhancement
+
+The sample vidoe is a very good example to find the lanes. Though this experment would have
+had a bad result in case the there was high traffic such as i urban area.
+I one case my pipeline did perforem well where there was sudden shadow and the lane line are barely visible.
+
+I feel that in such cases a few extra points can be interpolated so that the lane prediction is not off only in such exteme cases.
+
+As an enhancement I would like to implement senario based image brightness correction .
+Also I feel that that the bounding box for searching the lanes can be made shorter so as to detect accurate lane markings.
+
+
